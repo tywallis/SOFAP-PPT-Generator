@@ -1,0 +1,15 @@
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.exe
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.deps.json
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.runtimeconfig.json
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.runtimeconfig.dev.json
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.dll
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\SOFAP-PPT-Generator.pdb
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.csproj.AssemblyReference.cache
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP_PPT_Generator.Form1.resources
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.csproj.GenerateResource.cache
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.AssemblyInfoInputs.cache
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.AssemblyInfo.cs
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.csproj.CoreCompileInputs.cache
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.dll
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.pdb
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.genruntimeconfig.cache
