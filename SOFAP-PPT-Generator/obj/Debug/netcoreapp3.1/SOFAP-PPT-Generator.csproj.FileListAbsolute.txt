@@ -13,3 +13,6 @@ C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator
 C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.dll
 C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.pdb
 C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.genruntimeconfig.cache
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.PowerPoint.dll
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.PowerPoint.dll
+C:\Users\tywal\OneDrive\Documents\GitHub\SOFAP-PPT-Generator\SOFAP-PPT-Generator\obj\Debug\netcoreapp3.1\SOFAP-PPT-Generator.csproj.ResolveComReference.cache

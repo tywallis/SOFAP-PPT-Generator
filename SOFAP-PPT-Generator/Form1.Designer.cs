@@ -37,9 +37,7 @@ namespace SOFAP_PPT_Generator
             this.addPreMadeButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.notInBookLabel = new System.Windows.Forms.Label();
-            this.notInBookSelector = new System.Windows.Forms.ComboBox();
-            this.addSongNotInBookButton = new System.Windows.Forms.Button();
+            this.removeSlidesButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // songNumberLabel
@@ -93,6 +91,7 @@ namespace SOFAP_PPT_Generator
             this.addSongButton.Text = "Add Slide";
             this.addSongButton.UseVisualStyleBackColor = true;
             this.addSongButton.Visible = false;
+            this.addSongButton.Click += new System.EventHandler(this.addSongButton_Click);
             // 
             // addPreMadeButton
             // 
@@ -103,6 +102,7 @@ namespace SOFAP_PPT_Generator
             this.addPreMadeButton.Text = "Add Slide";
             this.addPreMadeButton.UseVisualStyleBackColor = true;
             this.addPreMadeButton.Visible = false;
+            this.addPreMadeButton.Click += new System.EventHandler(this.addPreMadeButton_Click);
             // 
             // label1
             // 
@@ -119,45 +119,28 @@ namespace SOFAP_PPT_Generator
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(504, 33);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(284, 404);
+            this.listBox1.Size = new System.Drawing.Size(284, 344);
             this.listBox1.TabIndex = 8;
+            this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
+            this.listBox1.DragOver += new System.Windows.Forms.DragEventHandler(this.listBox1_DragOver);
+            this.listBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDown);
             // 
-            // notInBookLabel
+            // removeSlidesButton
             // 
-            this.notInBookLabel.AutoSize = true;
-            this.notInBookLabel.Location = new System.Drawing.Point(13, 100);
-            this.notInBookLabel.Name = "notInBookLabel";
-            this.notInBookLabel.Size = new System.Drawing.Size(216, 20);
-            this.notInBookLabel.TabIndex = 9;
-            this.notInBookLabel.Text = "Or Pick a Song Not in the Book:";
-            // 
-            // notInBookSelector
-            // 
-            this.notInBookSelector.FormattingEnabled = true;
-            this.notInBookSelector.Location = new System.Drawing.Point(234, 97);
-            this.notInBookSelector.Name = "notInBookSelector";
-            this.notInBookSelector.Size = new System.Drawing.Size(151, 28);
-            this.notInBookSelector.TabIndex = 10;
-            this.notInBookSelector.SelectedIndexChanged += new System.EventHandler(this.notInBookSelector_SelectedIndexChanged);
-            // 
-            // addSongNotInBookButton
-            // 
-            this.addSongNotInBookButton.Location = new System.Drawing.Point(391, 97);
-            this.addSongNotInBookButton.Name = "addSongNotInBookButton";
-            this.addSongNotInBookButton.Size = new System.Drawing.Size(94, 28);
-            this.addSongNotInBookButton.TabIndex = 11;
-            this.addSongNotInBookButton.Text = "Add Slide";
-            this.addSongNotInBookButton.UseVisualStyleBackColor = true;
-            this.addSongNotInBookButton.Visible = false;
+            this.removeSlidesButton.Location = new System.Drawing.Point(563, 383);
+            this.removeSlidesButton.Name = "removeSlidesButton";
+            this.removeSlidesButton.Size = new System.Drawing.Size(170, 29);
+            this.removeSlidesButton.TabIndex = 9;
+            this.removeSlidesButton.Text = "Remove Slides";
+            this.removeSlidesButton.UseVisualStyleBackColor = true;
+            this.removeSlidesButton.Click += new System.EventHandler(this.removeSlidesButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.addSongNotInBookButton);
-            this.Controls.Add(this.notInBookSelector);
-            this.Controls.Add(this.notInBookLabel);
+            this.Controls.Add(this.removeSlidesButton);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.addPreMadeButton);
@@ -183,9 +166,7 @@ namespace SOFAP_PPT_Generator
         private System.Windows.Forms.Button addPreMadeButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label notInBookLabel;
-        private System.Windows.Forms.ComboBox notInBookSelector;
-        private System.Windows.Forms.Button addSongNotInBookButton;
+        private System.Windows.Forms.Button removeSlidesButton;
     }
 }
 

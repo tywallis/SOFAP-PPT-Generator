@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "SOFAP-PPT-Generator/1.0.0": {
+        "dependencies": {
+          "Interop.Microsoft.Office.Interop.PowerPoint": "2.12.0.0"
+        },
         "runtime": {
           "SOFAP-PPT-Generator.dll": {}
+        }
+      },
+      "Interop.Microsoft.Office.Interop.PowerPoint/2.12.0.0": {
+        "runtime": {
+          "Interop.Microsoft.Office.Interop.PowerPoint.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "SOFAP-PPT-Generator/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.Microsoft.Office.Interop.PowerPoint/2.12.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
